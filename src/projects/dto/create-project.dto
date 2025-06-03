@@ -1,0 +1,7 @@
+export class CreateProjectDto {
+  projectCode: string;
+  description: string;
+  productLine: string;
+  wantsNotifications: boolean;
+  notificationType: string[]; 
+}
